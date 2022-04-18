@@ -4,7 +4,7 @@ Hangman game made with Pygame
 
 ## How to play
 
-- First download the game from [here](https://drive.google.com/file/d/1sklC5fzcUBvmRTk5I7IHtW4qFUbPVtsE/view?usp=sharing)
+- First download the game from [here](https://drive.google.com/drive/folders/1zPD7J0tMDJ1O6QuTiNa9dJaSlYYRpr4b?usp=sharing)
 
 - Unzip the downloaded folder
 

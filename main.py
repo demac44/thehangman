@@ -13,7 +13,7 @@ win = pygame.display.set_mode((WIDTH, HEIGHT))
 
 pygame.display.set_caption("TheHangman")
 
-icon = pygame.image.load('assets/images/icon.ico')
+icon = pygame.image.load('assets/images/icons/icon.ico')
 pygame.display.set_icon(icon)
 
 #IMAGES 
@@ -21,7 +21,7 @@ pygame.display.set_icon(icon)
 images = []
 
 for i in range(7):
-    image = pygame.image.load("assets/images/hangman"+ str(i)+ ".png")
+    image = pygame.image.load("assets/images/sprites/hangman"+ str(i)+ ".png")
     images.append(image)
 
 
@@ -125,10 +125,10 @@ def draw_end_screen(won):
 
     if won:
         end_text = WORD_FONT.render("CORRECT!", 1, WHITE) 
-        tick_or_x_img = pygame.image.load("assets/images/tick.png")
+        tick_or_x_img = pygame.image.load("assets/images/icons/tick.png")
     else: 
         end_text = WORD_FONT.render("WRONG!", 1, WHITE) 
-        tick_or_x_img = pygame.image.load("assets/images/x.png")
+        tick_or_x_img = pygame.image.load("assets/images/icons/x.png")
         
     win.blit(tick_or_x_img, (WIDTH / 2 - 150, HEIGHT / 4-20))
                
@@ -141,7 +141,7 @@ def draw_end_screen(won):
     show_streak = LETTER_FONT.render("STREAK "+str(streak), 1, WHITE)
     win.blit(show_streak, (65, 25))
 
-    streak_img = pygame.image.load('assets/images/flame.png')
+    streak_img = pygame.image.load('assets/images/icons/flame.png')
     win.blit(streak_img, (20, 15))
 
 
