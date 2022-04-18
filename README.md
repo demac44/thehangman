@@ -6,7 +6,7 @@ Hangman game made with Pygame
 
 - First download the game from [here](https://drive.google.com/file/d/1sklC5fzcUBvmRTk5I7IHtW4qFUbPVtsE/view?usp=sharing)
 
-- Unzip the downloaded folder
+- Extract the downloaded folder
 
 - Run the TheHangman application from the dist folder
 
